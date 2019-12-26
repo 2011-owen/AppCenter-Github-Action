@@ -1,6 +1,6 @@
-name: 'App Center'
+name: 'App Center + Release Notes'
 description: 'GitHub Action that uploads artefacts for Visual Studio App Center'
-author: 'Wojciech Zięba <@wzieba>'
+author: 'Zach Silveira <@zackify>'
 inputs: 
   appName:
     description: 'App name followed by username e.g. wzieba/Sample-App'
@@ -14,9 +14,6 @@ inputs:
   file:
     description: 'Artefact to upload (.apk or .ipa)'
     required: true
-  releaseNotes:
-    description: 'Release notes visible on release page'
-    required: false
 branding:
   color: 'red' 
   icon: 'send'
